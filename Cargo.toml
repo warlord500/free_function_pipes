@@ -1,7 +1,11 @@
 [package]
-name = "composition"
+name = "pipe_traits"
 version = "0.1.0"
 authors = ["jadon belezos <jjbelezos@gmail.com>"]
+description="a bunch of traits that all you to pipe data over any function!"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/warlord500/pipe_traits_rust"
+categories = ["gui"]
 
-[dependencies]
-itertools ="0.7.8"
+

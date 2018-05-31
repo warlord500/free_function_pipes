@@ -1,0 +1,7 @@
+[package]
+name = "composition"
+version = "0.1.0"
+authors = ["jadon belezos <jjbelezos@gmail.com>"]
+
+[dependencies]
+itertools ="0.7.8"

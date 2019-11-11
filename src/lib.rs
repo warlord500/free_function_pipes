@@ -1,4 +1,6 @@
-/// the point of this trait, is allow you to use, free functions, 
+/// the point of this trait, is allow you to use, free functions, in composing manner 
+///without being difficult to read with lots of nested parethensis
+
 
 trait FreeFunPiper : Sized {
    #[inline(always)] 
@@ -67,7 +69,7 @@ trait FreeFunPiper : Sized {
         f(self,a,b,c,d,e)
     } 
 }
-//add FunreeFununApplier to nearly every type that 
+//add piper trait to nearly every type that it can 
 impl<T> FreeFunPiper for T where T : Sized {}
 
 ///this trait allows you to use functions, 

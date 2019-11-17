@@ -1,6 +1,6 @@
 [package]
 name = "pipe_traits"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["jadon belezos <jjbelezos@gmail.com>"]
 description="a bunch of traits that makes composing functions together"
 license = "Apache-2.0"

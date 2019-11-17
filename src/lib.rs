@@ -1,7 +1,5 @@
 /// the point of this trait, is allow you to use, free functions, in composing manner 
 ///without being difficult to read with lots of nested parethensis
-
-
 trait FreeFunPiper : Sized {
    #[inline(always)] 
      fn pipe<U,Fun>(self, f: Fun) -> U 
@@ -12,6 +10,7 @@ trait FreeFunPiper : Sized {
         f(self)
     }
 
+	///all function 
    #[inline(always)] 
      fn pipe2<U,A,Fun>(self, f: Fun, a : A) -> U 
 		where 
@@ -152,7 +151,7 @@ trait FreeFunPipModer : Sized {
     } 
 }
 ///blanket implement, because is really only limited,
-///by the fact that T
+///by the fact that T must be sized to be passed or returned by value.
 impl<T> FreeFunPipModer for T where T : Sized {}
 
 

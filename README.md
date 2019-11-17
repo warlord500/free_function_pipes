@@ -1,15 +1,12 @@
-in rust, it is common to compose functions together,
-however in order to compose function together, with have to deal 
-with lots of nested of parathensis, you commonly use the method 
-syntax. 
+In rust, it is common to compose functions together; however, to compose functions together, you have option one of dealing with lots of nested parenthesis or option two; you commonly use the method syntax. 
 
-this creates traits that apply to every type, 
+the library creates traits that apply to every type, 
 that allow "piping" data through, a free function or closure
-in a method chain without breaking the format of method chain.
+in a method chain without breaking the format of a method chain.
 
-in addition, this code adds pipmoder trait, that additionally,
+also, this code adds a trait called pipModer, that additionally,
 allows chaining functions, that return unit but modify self,
-by returning self
+by returning Self.
 
 
 ## License

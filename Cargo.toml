@@ -1,5 +1,5 @@
 [package]
-name = "pipe_traits"
+name = "free_function_pipes"
 version = "1.0.0"
 authors = ["jadon belezos <jjbelezos@gmail.com>"]
 description="a bunch of traits that makes composing functions together"

@@ -24,6 +24,3 @@ at your option.
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
-
-## git is not the official Version Control System for this project. 
-the official version is at <https://jadonbelezos.com/cgi-bin/fossil.cgi/pipe_traits_rust/doc/master/README.md>
